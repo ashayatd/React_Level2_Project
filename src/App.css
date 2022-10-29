@@ -1,0 +1,136 @@
+*{
+  width: auto;
+  background-color: #14264C;
+  font-family: monospace;
+}
+#main-head{
+  font-family: monospace;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+}
+.field{
+  width: 500px;
+  height: 26px;
+  border-radius: 14px;
+  border-width: 1px;
+  border-color: white;
+  background: white;
+}
+.lables{
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+}
+.divisions{
+ display: flex;
+ flex-direction: column;
+}
+#maindivision{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+.bmi-head{
+  display: flex;
+  justify-content: center;
+  font-size: 49px;
+  color: white;
+  font-family: monospace;
+}
+.bmi-head2{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  font-family: monospace;
+  margin-bottom: -120px;
+  margin-top: 80px;
+}
+#bmibutton{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#button{
+  height: 48px;
+  width: 207px;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #243F82;
+  cursor: pointer;
+}
+
+.show-Items{
+  margin-top: 137px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #1C3367;
+  height: 406px;
+  margin-bottom: 193px;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 1px 1px 10px rgb(37, 37, 37);
+}
+.each-Item{
+  margin-left: 20%;
+  height: auto;
+  width: 50%;
+  background-color: #243F82;
+  color: white;
+  margin-top: 0%;
+}
+#main-outer-div{
+  width: 11.2%;
+  margin-left: 27px;
+  height: 346px;
+  background-color: #243F82;
+  margin-right: 27px;
+  border-radius: 8px;
+  margin-top: 27px;
+}
+#small-bmi{
+  background-color: #243F82;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;background-color: #243F82;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+}
+.date{
+  background-color: #243F82;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 100;
+  text-shadow: 0px 0px 3px black;
+}
+#cross{
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  background-color: #243F82;
+  color: rgb(143, 46, 46);
+  margin-right: 5%;
+  margin-top: 5%;
+  border-width: 3px;
+  text-shadow: 0px 0px 2px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cross:hover{
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  background-color: #243F82;
+  color: white;
+  margin-right: 5%;
+  margin-top: 5%;
+  color: rgb(255, 250, 250);
+}
+
