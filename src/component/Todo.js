@@ -38,9 +38,6 @@ const Todo = ()=> {
     const[smallW, setsmallW] = useState(0);
 
 
-    useEffect(() => {
-        
-    }, [input]);
 
     return (
     <>
