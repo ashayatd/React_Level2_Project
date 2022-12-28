@@ -1,5 +1,16 @@
-import {React, useState} from 'react'
+import {React, useState, useEffect} from 'react'
 import "../App.css"
+
+const getLocalItems = ()=>{
+    let list = localStorage.getItem('list');
+    if(list){
+        return JSON.parse(localStorage.getItem('list'));
+    }
+    else{
+        return [];
+    }
+}
+
 
 const Todo = ()=> {
     const deleteItem = (id)=>{
@@ -29,7 +40,8 @@ const Todo = ()=> {
 
     }
 
-    let [items, setItems] = useState([]);
+
+    let [items, setItems] = useState(getLocalItems());
     const [weigth, setWeight] = useState('');
     const [height, setHeight] = useState('');
     const [BMI, setBMI] = useState(0);
@@ -37,7 +49,9 @@ const Todo = ()=> {
     const[smallH, setsmallH] = useState(0);
     const[smallW, setsmallW] = useState(0);
 
-
+    useEffect(()=>{
+        localStorage.setItem('list',JSON.stringify(items))
+    }, [items]);
 
     return (
     <>
