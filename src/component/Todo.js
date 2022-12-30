@@ -87,8 +87,8 @@ const Todo = ()=> {
                                     <div className='each-Item'>
                                         <p id='small-bmi'>{elem}</p>
                                         <h5 className='date'>{(new Date()).toLocaleDateString()}</h5>
-                                        <h5 className='date'>H: {smallH}m</h5>
-                                        <h5 className='date'>W: {smallW}Kg</h5>
+                                        {/* <h5 className='date'>H: {smallH}m</h5>
+                                        <h5 className='date'>W: {smallW}Kg</h5> */}
                                     </div>
                                 </div>
                             )
